@@ -1,4 +1,6 @@
 ## INSTALACION
+## NODE 20.11.0 IS NEEDED
+
 ```
 npm install
 

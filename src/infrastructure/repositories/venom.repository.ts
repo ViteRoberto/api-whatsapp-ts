@@ -11,7 +11,7 @@ export class VenomTransporter implements LeadExternal {
   sendMsg(lead: { message: string; phone: string }): Promise<any> {
     try {
       const { message, phone } = lead;
-      const postImage = "https://firebasestorage.googleapis.com/v0/b/mis-xvs.appspot.com/o/envioPaula.png?alt=media&token=99c3d94d-65e5-40ae-a6ea-59f32c198709";
+      const postImage = "https://firebasestorage.googleapis.com/v0/b/mi-boda-5536a.appspot.com/o/envioElizabeth.png?alt=media&token=02e13742-a898-4ccc-8288-e8dba83936eb";
       const response = this.intance?.sendImage(`${phone}@c.us`,postImage,undefined,message);
       // const response = this.intance?.sendText(`${phone}@c.us`, message);
       return Promise.resolve(response);
